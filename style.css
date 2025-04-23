@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: hsl(212, 45%, 89%);
+  }
+
+  .QR_Box {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .QR_Box img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+  }
+
+  .QR_Box h1 {
+    font-size: 15px;
+    margin: 20px 0 10px;
+    color: hsl(218, 44%, 22%);
+  }
+
+  .QR_Box p {
+    font-size: 1rem;
+    color: hsl(216, 15%, 48%);
+    line-height: 1.5;
+  }
+
+  @media (min-width: 768px) {
+    .QR_Box {
+      padding: 30px;
+    }
+
+    .QR_Box h1 {
+      font-size: 1.75rem;
+    }
+
+    .QR_Box p {
+      font-size: 15px;
+    }
+  }
+.attribution {
+     font-size: 15px;
+     text-align: center;
+     }
+.attribution a { color: hsl(228, 45%, 44%); }
